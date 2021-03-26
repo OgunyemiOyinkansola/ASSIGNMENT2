@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+html {
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+}
+
+
+path:hover{
+  fill:black;}
+/* #NG-AB:hover,#NG-AD:hover,#NG-AK:hover,#NG-AN:hover, #NG-BA:hover,#NG-BE:hover,#NG-BO:hover,#NG-CR:hover,#NG-DE:hover,#NG-EB:hover,#NG-ED:hover,#NG-EK:hover,#NG-EN:hover,#NG-FC:hover,#NG-GO:hover,#NG-IM:hover,#NG-JI:hover,#NG-KD:hover
+,#NG-KE:hover,#NG-KN:hover,#NG-KO:hover,#NG-KT:hover,#NG-KW:hover,#NG-LA:hover,#NG-NA:hover,#NG-NI:hover,#NG-OG:hover,#NG-ON:hover,#NG-OS:hover,#NG-OY:hover,#NG-PL:hover,#NG-RI:hover,#NG-SO:hover,#NG-TA:hover,#NG-YO:hover
+,#NG-ZA:hover,#NG-BY:hover*/
+
+h1{
+  text-align:center;
+}
+.svg-states {
+  /*margin-left:auto; margin-right:auto; display:block;*/
+  float:left
+}
+
+.my-legend .legend-title {
+    float:left;
+    font-weight: bold;
+    font-size: 90%;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    list-style: none;
+    clear: both;
+   
+    }
+  .my-legend .legend-scale ul {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    float: left;
+    list-style: none;
+    clear: both;
+    }
+  .my-legend .legend-scale ul li {
+    font-size: 80%;
+    line-height: 18px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    clear: both;
+    }
+  .my-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 16px;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 0;
+    border: 1px solid #999;
+    clear: both;
+    }
+  /*.my-legend .legend-source {
+    font-size: 70%;
+    color: #999;
+    clear:both;
+    }*/
+.my-legend a {
+    color: #777;
+    }
+
+.list-of-states {
+  margin: 0;
+  padding: 20px;
+  columns: 100px auto;
+  column-gap: 10px;
+  list-style: none;
+}
+path.on{
+  fill: black;
+}
+.list-of-states li {
+  padding: 2px 4px;
+  display: inline-block;
+  width: 100%;
+}
+.list-of-states li.on {
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+
+/*.list-of-states li.on {
+  background: black;
+  color: white;
+  font-weight: bold;
+ 
+}
+path.on{
+  fill: black;
+}
+.list-of-states {
+  margin-left:10%;
+  padding: 0;
+  columns: 100px auto;
+  column-gap: 8px;
+  
+
+}
+.list-of-states li {
+  padding: 2px 4px;
+  margin-left: 5%;
+  padding-top: 10px;
+  display: inline-block;
+  width: 100%;
+}*/
